@@ -1,1 +1,21 @@
 //Faça um programa para ler um vetor de 6 posições de numeros quaisquer e em seguida ordene em ordem descrescente.
+#include <iostream>
+using namespace std;
+int main() {
+  int vet[6], i, j, temp; //meu vetor
+  for(i=0; i<6; i++){
+    cout<<"Digite qualquer número: ";
+    cin>>vet[i];
+    }                 
+  for(i=0;i<6; i++)   //organizar os valores
+  for(j=i+1;j<6;j++){
+    if (vet[i]<vet[j])
+      {
+      temp=vet[i];
+      vet[i]=vet[j];
+      vet[j]=temp;
+      }
+  }
+  for(i=0;i<6;i++)  //imprimir os valores organizados
+  cout<<" "<<vet[i];
+  }
