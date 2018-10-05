@@ -1,0 +1,16 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   int vetor[3], i; //meu vetor
+    for(i=0; i<3 ; i++){ //armazenar meu valor no vetor
+    cout<<"Digite um valor: ";
+    cin>>vetor[i];}
+    for(i=0; i<3 ; i++){ //exibir valores do vetor 
+    cout<<" "<<vetor[i];,
+    }     
+    system("PAUSE");
+    return 0;
+}
