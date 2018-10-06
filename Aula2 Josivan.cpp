@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main(int argc, char** argv){
+	int num=4;
+	int *pn;
+	pn = &num;
+	cout<<"endereco: "<<pn<<endl;
+	cout<<"valor de pn: "<<pn<<endl;
+	cout<<"valor de num: "<<&num<<endl;
+	*pn = 10;
+	cout<<" novo valor de pn "<<num<<endl;
+	return 0
+}

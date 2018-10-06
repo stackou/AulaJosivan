@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int *p;
+  int vetor[3];
+
+  p = vetor;
+  p[0] = 10;
+  p[1] = 30;
+  cout<<" "<<vetor[0];
+  cout<<" "<<vetor[1];
+  return 0;
+}
+
+//manipulação de ponteiro com vetor
